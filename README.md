@@ -1,7 +1,7 @@
 # Portfolio-Website
 My portfolio website WIP - Not finished yet! 
-Homepage -- complete
-Design sec -- needs links to project pages, design on standby
-Coding sec -- " "
-About -- not designed, need text copy
-Contact -- not designed, needs form
+<br> Homepage -- complete
+<br> Design sec -- needs links to project pages, design on standby
+<br> Coding sec -- " "
+<br> About -- not designed, need text copy
+<br> Contact -- not designed, needs form
