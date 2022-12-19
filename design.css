@@ -1,0 +1,66 @@
+  /* Design Page */
+ .title {
+    margin: 0%;
+    padding-top: 8rem;
+    text-align: center;
+ }
+ 
+.complete {
+  margin-top: 3rem;
+  
+}
+
+  .complete-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    position: relative;
+    width: 75%;
+    margin: auto;
+  }
+  .card {
+    background-color: #E0D9F2;
+    box-shadow: 0 4px 8px 0 rgba(71, 46, 133, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    margin: 0 auto 2rem;
+    padding: 1rem;
+    width: 25%;
+    
+  }
+  
+  .card-img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+
+
+  .card:hover {
+    box-shadow: 0 6px 10px 0 rgba(71, 46, 133, 0.5);
+  }
+  @media (max-width: 1200px) {
+    .complete-cards {
+        width: 85%;
+    }
+    .card {
+        width: 40%;
+    }
+  }
+
+  /* Coding Page */
+.codepage {
+  background-color: #E0D9F2;
+
+}
+.push {
+  background-color: #E0D9F2;
+  height: 12rem;
+}
+
+
+/* About Page */
+.subtitle {
+  text-align: center;
+  margin: 0;
+  padding-top: 8rem;
+}

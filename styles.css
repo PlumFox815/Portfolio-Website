@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #c8bbe8;
+}
+p {
+    font-size: 1.2rem;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1rem;
+}
+h1 {
+    font-family: Bodoni;
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+h3 {
+    font-family: Bodoni;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+h4 {
+    font-size: 1.3rem;
+}
+footer {
+    background-color: #472E85;
+    color: #E0D9F2;
+    margin: 0;
+    padding: 0;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Navigation Bar */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #c8bbe8;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    box-shadow: 1px 0 25px #472E85;
+}
+
+.navlinks {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.navlink {
+    padding: 0 2rem;
+    display: flex;
+    
+}
+.logo {
+    display: flex;
+    width: 5rem;
+}
+/* Landing */
+.landing {
+    position: relative;
+    max-height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+} 
+.watercolor {
+    height: 90%;
+    width: 100%;
+    z-index: 0;
+}
+.main-logo {
+    position: absolute;
+    display: flex;
+    width: 35%;
+    
+}
+/* Teaser Blurbs */
+.teasers {
+    display: flex;
+    flex-direction: column;
+    background-color: #E0D9F2;
+    padding-bottom: 3rem;
+}
+.teaser-row {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.teaser-img {
+    box-shadow: .5px 1px 1px #472E85;
+}
+
+.about, .design {
+    width: 50%;
+    margin-right: 30px;
+    float: left;
+  }
+  
+  .web {
+    width: 50%;
+    margin-left: 30px;
+    float: right;
+  }
+
+  .btn {
+    background: #6542bd;
+    background-image: -webkit-linear-gradient(top, #6542bd, #472e85);
+    background-image: -moz-linear-gradient(top, #6542bd, #472e85);
+    background-image: -ms-linear-gradient(top, #6542bd, #472e85);
+    background-image: -o-linear-gradient(top, #6542bd, #472e85);
+    background-image: linear-gradient(to bottom, #6542bd, #472e85);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    text-shadow: 2px 2px 3px #666666;
+    -webkit-box-shadow: 0px 0px 2px #000000;
+    -moz-box-shadow: 0px 0px 2px #000000;
+    box-shadow: 0px 0px 2px #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Century Gothic', sans-serif;
+    padding: 10px 20px 10px 20px;
+    border: solid #472e85 0.5px;
+    text-decoration: none;
+  }
+  
+  /* Contact Section*/
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+.status {
+    text-align: center;
+    width: 60%;
+    padding-bottom: 2rem;
+    font-weight: 100;
+}
+
+/* Footer */
+.copywright {
+    padding-top: 1rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+  /* Hovers and breakpoints*/
+  .btn:hover {
+    background: #6542bd;
+    background-image: -webkit-linear-gradient(top, #6542bd, #e0d9f2);
+    background-image: -moz-linear-gradient(top, #6542bd, #e0d9f2);
+    background-image: -ms-linear-gradient(top, #6542bd, #e0d9f2);
+    background-image: -o-linear-gradient(top, #6542bd, #e0d9f2);
+    background-image: linear-gradient(to bottom, #6542bd, #e0d9f2);
+    text-decoration: none;
+    color: #472E85;
+  }
+  .logo:hover {
+    background-color: #E0D9F2;
+  }
+  a:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 1060px) {
+    .teaser-row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        text-align: center;
+    }
+    .about, .design, .web {
+        width: 50%;
+        margin-right: 0;
+        float:none;
+        margin:auto;
+  }
+  }
+  @media (max-width: 675px) {
+    .main-logo {
+        width: 40%;
+    }
+
+  }
+
